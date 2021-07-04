@@ -1,6 +1,6 @@
 const Employee = require("../lib/Employee");
 
-test("initiates questions", () => {
+test("Test initiate questions", () => {
     const e = new Employee();
     expect(typeof (e)).toBe("object");
 });
