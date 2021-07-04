@@ -53,10 +53,12 @@ See references below
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Image
+![screenshot](https://github.com/Mannyalfa/team-profile-generator/blob/main/assets/Screenshot.png)
+
 ![screenshot](https://github.com/Mannyalfa/team-profile-generator/blob/main/assets/testShot.png)
 
 ## Languages/Applications
-JavaScript,Node,Jest
+JavaScript,Node,Jest, Inquirer
 
 ## Repository URL
 https://github.com/Mannyalfa/team-profile-generator
