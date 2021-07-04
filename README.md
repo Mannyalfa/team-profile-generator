@@ -46,12 +46,14 @@ THEN I am prompted to enter the team manager’s name, employee ID, email addres
 WHEN I enter the team manager’s name, employee ID, email address, and office number
 
 THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
+
 WHEN I select the engineer option
 
 THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
 WHEN I select the intern option
 
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
+
 WHEN I decide to finish building my team
 
 THEN I exit the application, and the HTML is generated
@@ -60,7 +62,7 @@ THEN I exit the application, and the HTML is generated
 install npm "npm i" and jest "npm install jest", then command prompt "npm run test", if successful "node index"
 
 ## Usage
-See references below
+See demonstration video below. Though not required, the webpage is deployed to show that email and github links function when c
 
 ## License
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
