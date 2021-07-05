@@ -68,7 +68,7 @@ See demonstration video below. Though not required, the webpage is deployed to s
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Image
-![screenshot](https://github.com/Mannyalfa/team-profile-generator/blob/main/assets/Screenshot.png)
+![screenshot]()
 
 ![screenshot](https://github.com/Mannyalfa/team-profile-generator/blob/main/assets/testShot.png)
 
