@@ -16,7 +16,7 @@
 
 7. [Repository URL](#repository-url)
 
-8. [Test](#test)
+8. [Test-Demo](#test-demo)
 
 9. [Website](#website)
 
@@ -78,7 +78,7 @@ JavaScript,Node,Jest, Inquirer
 ## Repository URL
 https://github.com/Mannyalfa/team-profile-generator
 
-## Test Demo
+## Test-Demo
 https://drive.google.com/file/d/10gG1QHr7BU2BvyUyHcPe7rWB6-Muv3Kq/view?usp=sharing
 
 ## Website
