@@ -1,7 +1,8 @@
+//setup
 const inquirer = require("inquirer");
 const fs = require("fs");
 const jest = require("jest");
-
+//link classes
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
@@ -12,7 +13,7 @@ function init() {
     startHtml();
     addMember();
 }
-
+//build employee parent
 function addMember() {
     inquirer.prompt([{
         message: "Member name:",
@@ -37,6 +38,7 @@ function addMember() {
         message: "Member email:",
         name: "email"
     }])
+        //Build job classes
         .then(function ({ name, job, id, email }) {
             let jobSpec = "";
             if (job === "Engineer") {
@@ -59,6 +61,7 @@ function addMember() {
                 ],
                 name: "moreMembers"
             }])
+                //add members
                 .then(function ({ jobSpec, moreMembers }) {
                     let newMember;
                     if (job === "Engineer") {
@@ -81,7 +84,7 @@ function addMember() {
                 });
         });
 }
-
+//push to html
 function startHtml() {
     const html = `<!DOCTYPE html>
     <html lang="en">
@@ -106,10 +109,10 @@ function startHtml() {
         }
     });
 }
-
+//add member data
 function addHtml(member) {
 
-
+    //add Engineer
     return new Promise(function (resolve, reject) {
         const name = member.getName();
         const job = member.getjob();
@@ -128,6 +131,7 @@ function addHtml(member) {
             </ul>            
             </div>
         </div>`;
+        //add intern
         } else if (job === "Intern") {
             const school = member.getSchool();
             data = `<div class="col-4">
@@ -140,6 +144,7 @@ function addHtml(member) {
             </ul>
             </div>
         </div>`;
+        //add Manager
         } else {
             const phoneNo = member.getPhoneNo();
             data = `<div class="col-4">
@@ -153,6 +158,7 @@ function addHtml(member) {
             </div>
         </div>`
         }
+        //output to html page
         fs.appendFile("./dist/team-output.html", data, function (err) {
             if (err) {
                 return reject(err);
