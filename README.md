@@ -62,7 +62,7 @@ THEN I exit the application, and the HTML is generated
 install npm "npm i" and jest "npm install jest", then command prompt "npm run test", if successful "node index"
 
 ## Usage
-See demonstration video below. Though not required, the webpage is deployed to show that email and github links function when c
+See demonstration video below. Though not required, the webpage is deployed to show that email and github links function when clicked on
 
 ## License
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -79,6 +79,7 @@ JavaScript,Node,Jest, Inquirer
 https://github.com/Mannyalfa/team-profile-generator
 
 ## Test
+https://drive.google.com/file/d/10gG1QHr7BU2BvyUyHcPe7rWB6-Muv3Kq/view?usp=sharing
 
 ## Website
 https://mannyalfa.github.io/team-profile-generator/

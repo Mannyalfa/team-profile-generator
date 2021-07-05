@@ -166,7 +166,7 @@ function addHtml(member) {
 
 
 
-}
+} 
 
 function finishHtml() {
     const html = ` </div>
